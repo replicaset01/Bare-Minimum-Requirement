@@ -10,4 +10,9 @@ public class Controller {
     public String printTodo() {
         return "To-do Application !";
     }
+
+    @GetMapping("/hello")
+    public String printHello() {
+        return "Hello.html";
+    }
 }
