@@ -8,7 +8,7 @@ public class Controller {
 
     @GetMapping("/")
     public String printTodo() {
-        return "index.html";
+        return "To-do Application !";
     }
 
     @GetMapping("/hello")
